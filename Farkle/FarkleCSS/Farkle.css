@@ -1,0 +1,58 @@
+.faded {
+    opacity: 0.5;
+}
+
+.moreFaded {
+    opacity: 0.15;
+}
+
+#logo {
+
+    height: 275px;
+    width: 400px;
+}
+
+body{
+    text-align: center;
+    background-color: #980d22;
+}
+
+table {   
+    /*display: inline-block;
+    border: 2px solid black;
+    border-collapse: separate;
+    empty-cells: hide;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;*/
+    margin: auto;
+    size: 50% !important;
+    height: 50% !important;
+    width: 50% !important;
+}
+
+td, th {
+    border: 1px solid black;
+    
+}
+
+
+#diceGroup{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.dice{
+    padding: 10px;
+    float: left;
+    width: 125px;
+    height: 125px;
+}
+
+img{
+    pointer-events: none;
+}
+
+#instructions {
+    color: lightgray;
+}
